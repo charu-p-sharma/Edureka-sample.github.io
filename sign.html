@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+
+    <!-- Bootstrap CDN(CSS) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Bootstrap CDN(Js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CDN(Icon) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <!-- Google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body style="font-family: 'Lobster', cursive;">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container">
+            
+            <a class="icon-link" href="./logo.png">
+                <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
+                Icon link
+                <a class="navbar-brand">
+                    <h1 class="logo" style="font-family: 'Lobster', cursive;">EDUREKA!</h1>
+                </a>
+            </a>
+
+            <!-- Navbar Contents -->
+            <div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-family: 'Lobster', cursive;">
+
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="./home.html">HOME</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown mx-4 ">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="./course.html" >COURSES</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./frontend.html">FRONTEND</a></li>
+                            <li><a class="dropdown-item" href="./backend.html">BACKEND</a></li>
+                            <li><a class="dropdown-item" href="./database.html">DATABASE</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="./sign.html">SIGN UP</a>
+                    </li>
+
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="./about.html">ABOUT US</a>
+                    </li>
+
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="./contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--SIGN UP FORM -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2><u>Not Yet Registered?</u></h2>
+                <h3>SIGN UP</h3>
+
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2 control-label">Name:</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" placeholder="Enter your name..."/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Email:</label>
+                        <div class="col-sm-6">
+                            <input type="email" class="form-control" placeholder="Enter your email..."/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password" class="col-sm-2 control-label">Password:</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" placeholder="Password Please..."/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirm" class="col-sm-2 control-label">Confirm:</label>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control" placeholder="Confirm password..."/>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-6">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-outline-primary">Reset</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--LOGIN FORM -->
+            <div class="col-md-6">
+                <h2><u>Already have an account?</u></h2>
+                <h3>LOGIN</h3>
+
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="username" class="col-sm-2 control-label">Username:</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" placeholder="Username or email..."/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password" class="col-sm-2 control-label">Password:</label>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control" placeholder="Password..."/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-6">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                            <button type="reset" class="btn btn-outline-primary">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    
+
+    
+   
+    <!-- Footer Content -->
+    <footer class="fixed-bottom bg-dark text-light text-center fs-5">
+        <p style="font-family: 'Lobster', cursive;" font-size: 1.00rem;">
+            <u>Author: Edureka</u> <br>
+            
+            © 2023 Brain4ce Education Solutions Pvt. Ltd. All rights Reserved. "PMP®","PMI®", "PMI-ACP®" and "PMBOK®" are registered marks of the Project Management Institute, Inc. MongoDB®, Mongo and the leaf logo are the registered trademarks of MongoDB, Inc.
+        </p>
+        <div class="fs-2 mb-2">
+            <i class="bi bi-google"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+    </footer>
+    
+</body>
+</html>
